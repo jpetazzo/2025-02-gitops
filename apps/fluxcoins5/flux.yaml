@@ -9,7 +9,7 @@ spec:
   values: {}
   chart:
     spec:
-      chart: generic-chart
+      chart: generic-chart/generic
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
@@ -34,7 +34,7 @@ spec:
       port: 6379
   chart:
     spec:
-      chart: generic-chart
+      chart: generic-chart/generic
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
@@ -54,7 +54,7 @@ spec:
   values: {}
   chart:
     spec:
-      chart: generic-chart
+      chart: generic-chart/generic
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
@@ -75,7 +75,7 @@ spec:
     service: false
   chart:
     spec:
-      chart: generic-chart
+      chart: generic-chart/generic
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
@@ -97,7 +97,7 @@ spec:
       type: NodePort
   chart:
     spec:
-      chart: generic-chart
+      chart: generic-chart/generic
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
