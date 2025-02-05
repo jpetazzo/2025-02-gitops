@@ -7,3 +7,4 @@ resources:
 - ../../../apps/fluxcoins1/flux.yaml
 - ../../../apps/fluxcoins2/flux.yaml
 - ../../../apps/fluxcoins3/flux.yaml
+- ../../../apps/kube-prometheus-stack/flux.yaml
