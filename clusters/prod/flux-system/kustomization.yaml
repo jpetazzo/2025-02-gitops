@@ -3,3 +3,8 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- ../../../apps/fluxcoins1/flux.yaml
+- ../../../apps/fluxcoins2/flux.yaml
+- ../../../apps/fluxcoins3/flux.yaml
+- ../../../apps/fluxcoins4/flux.yaml
+- ../../../apps/fluxcoins5/flux.yaml
