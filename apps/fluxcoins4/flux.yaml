@@ -22,7 +22,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: fluxcoins4
+        name: helmcoins
   install:
     createNamespace: true
   interval: 1m0s
