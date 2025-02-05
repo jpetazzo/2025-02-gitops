@@ -26,3 +26,7 @@ spec:
   interval: 1m0s
   releaseName: kube-prometheus-stack
   targetNamespace: kube-prometheus-stack
+  values:
+    grafana:
+      service:
+        type: NodePort
