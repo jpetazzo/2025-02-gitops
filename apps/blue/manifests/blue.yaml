@@ -6,7 +6,6 @@ metadata:
     app: blue
   name: blue
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: blue
